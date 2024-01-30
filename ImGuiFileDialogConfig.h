@@ -1,5 +1,8 @@
 #pragma once
 
+#include "icon_fonts/IconsForkAwesome.h"
+#include "icon_fonts/IconsMaterialDesign.h"
+
 // uncomment and modify defines under for customize ImGuiFileDialog
 
 // uncomment if you need to use your FileSystem Interface
@@ -68,21 +71,21 @@
 //#define IMGUI_BUTTON ImGui::Button
 
 // locales string
-//#define createDirButtonString "+"
-//#define resetButtonString "R"
+#define createDirButtonString "+"
+#define resetButtonString ICON_FK_UNDO
 //#define drivesButtonString "Drives"
-//#define editPathButtonString "E"
-//#define searchString "Search"
-//#define dirEntryString "[DIR] "
-//#define linkEntryString "[LINK] "
-//#define fileEntryString "[FILE] "
+#define editPathButtonString ICON_FK_PENCIL
+#define searchString ICON_FK_SEARCH
+#define dirEntryString ICON_FK_FOLDER
+#define linkEntryString ICON_FK_SHARE
+#define fileEntryString ICON_FK_FILE
 //#define fileNameString "File Name : "
 //#define dirNameString "Directory Path :"
 //#define buttonResetSearchString "Reset search"
-//#define buttonDriveString "Drives"
+#define buttonDriveString ICON_FK_HDD_O
 //#define buttonEditPathString "Edit path\nYou can also right click on path buttons"
 //#define buttonResetPathString "Reset to current directory"
-//#define buttonCreateDirString "Create Directory"
+#define buttonCreateDirString ICON_FK_PLUS
 //#define OverWriteDialogTitleString "The file Already Exist !"
 //#define OverWriteDialogMessageString "Would you like to OverWrite it ?"
 //#define OverWriteDialogConfirmButtonString "Confirm"
